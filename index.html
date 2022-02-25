@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+     <h2 class="text-center bg-info py-2"> Info of  Different Country</h2>
+        <!-- Click Able Button -->
+     <div class="container text-center mt-4">
+      <button  id="asia" type="button" class="btn btn-primary" onclick="loadCountry('asia')">Asia</button>
+      <button id="europ" type="button" class="btn btn-secondary" onclick="loadCountry('europe')">Europ</button>
+      <button id="africa" type="button" class="btn btn-success" onclick="loadCountry('africa')" >Africa</button>
+      <button id="australia" type="button" class="btn btn-danger" onclick="loadCountry('oceania')">Oceania</button>
+      <button id="n-america" type="button" class="btn btn-warning" onclick="loadCountry('americas')">America</button>
+     </div>
+    
+         <!-- Click Able Button -->
+
+         <!-- Country Detail part -->
+         <div id="detail" class="container  m-3 mx-auto">
+
+         </div>
+
+         <!-- Country Detail part -->
+
+         <!-- Filtering Items -->
+         <h2 class="container w-50 bg-dark text-center text-white rounded-3 py-2"> Total Country = <span id="total"> 0</span></h2>
+         <div id="display-country" class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4 container mx-auto mt-4">
+          
+          
+        </div>
+
+          <!-- Filtering Items -->
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <script src="index.js"></script>
+</body>
+</html>
